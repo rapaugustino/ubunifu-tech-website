@@ -1,0 +1,86 @@
+.articleContainer {
+  padding: 8rem 0;
+  min-height: 100vh;
+  max-width: 800px !important; /* Override standard container width for readability */
+}
+
+.header {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.meta {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.date {
+  color: var(--primary);
+}
+
+.title {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.author {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.content {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Markdown Styles */
+.content h2 {
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+.content h3 {
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.content p {
+  margin-bottom: 1.5rem;
+}
+
+.content ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.content li {
+  margin-bottom: 0.5rem;
+}
+
+.content strong {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.backLink {
+  display: inline-block;
+  margin-top: 4rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9rem;
+}
+
+.backLink:hover {
+  color: var(--primary);
+}
