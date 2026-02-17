@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     'document intelligence Tanzania',
     'Ubunifu Insight',
     'business software Tanzania',
-    'software Dar es Salaam',
+    'software Arusha',
     'African SaaS',
     'data analytics Tanzania',
     'AI Tanzania',
@@ -101,7 +101,7 @@ export default function RootLayout({
     address: {
       '@type': 'PostalAddress',
       addressCountry: 'TZ',
-      addressRegion: 'Dar es Salaam',
+      addressRegion: 'Arusha',
     },
     sameAs: [
       // Add social media profiles when available

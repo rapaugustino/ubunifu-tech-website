@@ -34,7 +34,7 @@ export const Footer: React.FC = () => {
             <p className={styles.colLabel}>Contact</p>
             <a href="mailto:info@ubunifutech.com" className={styles.colLink}>info@ubunifutech.com</a>
             <a href="tel:+255765948816" className={styles.colLink}>+255 765 948 816</a>
-            <span className={styles.location}>Dar es Salaam, Tanzania</span>
+            <span className={styles.location}>Arusha, Tanzania</span>
           </div>
         </div>
 

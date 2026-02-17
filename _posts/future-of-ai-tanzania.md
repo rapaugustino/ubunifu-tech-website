@@ -2,7 +2,7 @@
 title: "AI for African Businesses: Where the Real Opportunity Is"
 date: "2026-01-06"
 author: "Ubunifu Technologies"
-excerpt: "AI tools are everywhere. But most of them are built for companies in San Francisco, not Dar es Salaam. Here is what that gap means — and what we are doing about it."
+excerpt: "AI tools are everywhere. But most of them are built for companies in San Francisco, not Tanzania. Here is what that gap means — and what we are doing about it."
 tags: ["AI", "Product", "Tanzania"]
 ---
 

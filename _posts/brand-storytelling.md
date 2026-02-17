@@ -16,7 +16,7 @@ A monthly subscription assumes the user has a consistent, predictable business. 
 
 That is not how most businesses here work.
 
-A law firm in Dar es Salaam might process a hundred contracts in one month and almost none the next. An NGO might need to extract data from a batch of grant documents once a quarter. An SME might use a tool heavily during tax season and barely touch it otherwise.
+A law firm in Arusha might process a hundred contracts in one month and almost none the next. An NGO might need to extract data from a batch of grant documents once a quarter. An SME might use a tool heavily during tax season and barely touch it otherwise.
 
 Forcing those users onto a monthly seat fee means they pay for months they barely use the product. That is bad for them — and it is the kind of friction that kills adoption.
 

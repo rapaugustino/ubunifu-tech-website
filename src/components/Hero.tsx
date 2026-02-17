@@ -6,7 +6,7 @@ export const Hero: React.FC = () => {
   return (
     <section className={styles.hero}>
       <div className={`container ${styles.container}`}>
-        <span className="eyebrow">Dar es Salaam, Tanzania</span>
+        <span className="eyebrow">Arusha, Tanzania</span>
 
         <h1 className={styles.title}>
           We build software<br />for Africa.

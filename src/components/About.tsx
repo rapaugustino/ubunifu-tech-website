@@ -16,7 +16,7 @@ const values = [
   },
   {
     title: 'Tanzania-first, Africa-wide',
-    body: 'We are based in Dar es Salaam. We build for the businesses we know, then expand across the continent as we grow.',
+    body: 'We are based in Arusha. We build for the businesses we know, then expand across the continent as we grow.',
   },
 ];
 

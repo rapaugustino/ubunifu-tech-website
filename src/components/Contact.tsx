@@ -31,7 +31,7 @@ export const Contact: React.FC = () => {
 
           <div className={styles.method}>
             <p className={styles.methodLabel}>Location</p>
-            <span className={styles.methodText}>Dar es Salaam, Tanzania</span>
+            <span className={styles.methodText}>Arusha, Tanzania</span>
           </div>
         </div>
       </div>

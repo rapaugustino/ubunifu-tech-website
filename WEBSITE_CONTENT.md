@@ -57,7 +57,7 @@ Footer
 
 ## 2. Hero
 
-**Eyebrow:** `Dar es Salaam, Tanzania`
+**Eyebrow:** `Arusha, Tanzania`
 
 **H1:**
 ```
@@ -329,7 +329,7 @@ building next? Reach us directly — we respond to every message.
 **Methods:**
 - **Email:** info@ubunifutech.com
 - **Phone:** +255 765 948 816
-- **Location:** Dar es Salaam, Tanzania
+- **Location:** Arusha, Tanzania
 
 **Status:** ✅ Done (consider adding a simple contact form later)
 
@@ -346,7 +346,7 @@ building next? Reach us directly — we respond to every message.
 |---|---|---|
 | Ubunifu Insight (live) | About | info@ubunifutech.com |
 | Ubunifu Rafiki (coming soon) | Portfolio | +255 765 948 816 |
-| | Blog | Dar es Salaam, Tanzania |
+| | Blog | Arusha, Tanzania |
 
 **Copyright:** © 2025 Ubunifu Technologies Ltd. All rights reserved.
 
