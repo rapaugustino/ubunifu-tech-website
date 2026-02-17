@@ -1,22 +1,37 @@
 ---
-title: "Visualizing Impact: Why Brand Storytelling Matters for Eco-Tourism"
+title: "Why We Chose Pay-as-You-Go Pricing"
 date: "2026-01-05"
-author: "HappyGod Pallangyo"
-excerpt: "In a crowded tourism market, premium design and authentic storytelling are what separate the leaders from the rest."
-tags: ["Design", "Branding", "Tourism"]
+author: "Ubunifu Technologies"
+excerpt: "Annual subscriptions are the default in SaaS. We decided to do something different — and the reason is straightforward."
+tags: ["Product", "Pricing", "Tanzania"]
 ---
 
-Tanzania is home to some of the world's most breathtaking landscapes, from the Serengeti to the Usambara Mountains. But having a beautiful destination isn't enough; you need to tell a beautiful story.
+When we were deciding how to price Ubunifu Insight, the obvious move was a monthly subscription. It is what every SaaS company does. Predictable revenue, easy to model, familiar to investors.
 
-## The Power of 'Premium'
+We went a different direction.
 
-When we designed the **Usambara Destination** platform, our goal wasn't just to list tours. It was to evoke a feeling. We used:
-- **Atmospheric Typography**: To convey elegance and heritage.
-- **Immersive Imagery**: Large, high-quality photos that transport the user instantly.
-- **Glassmorphism UI**: A modern, clean interface that doesn't distract from the content.
+## The subscription problem in Tanzania
 
-## Connecting Emotion to Action
+A monthly subscription assumes the user has a consistent, predictable business. It assumes they will use the product every month, at roughly the same level, indefinitely.
 
-Good design leads the user on a journey. It builds trust. When a potential traveler sees a professional, high-performance website, they subconsciously assume the tour operator is equally professional and reliable.
+That is not how most businesses here work.
 
-At Ubunifu Tech, we don't just build websites; we craft digital identities that turn visitors into guests.
+A law firm in Arusha might process a hundred contracts in one month and almost none the next. An NGO might need to extract data from a batch of grant documents once a quarter. An SME might use a tool heavily during tax season and barely touch it otherwise.
+
+Forcing those users onto a monthly seat fee means they pay for months they barely use the product. That is bad for them — and it is the kind of friction that kills adoption.
+
+## Pay as you go
+
+Ubunifu Insight runs on credits. You buy credits when you need them. You use them to index documents, ask questions, run extractions, and generate reports.
+
+If you do not use the product for a month, you do not pay. Your credits do not expire. There are no seat minimums.
+
+For a business with variable workloads, this is the only model that makes sense.
+
+## A secondary benefit: trust
+
+Pay-as-you-go is also an honesty signal. It says: we are confident you will find value in this, so we are not locking you into a contract to guarantee your money.
+
+If Ubunifu Insight stops being useful to you, you stop using it. That is the right relationship between a product and its users.
+
+We think more software companies should work this way — especially ones building for markets where cash flow is unpredictable and trust is earned, not assumed.

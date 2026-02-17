@@ -1,11 +1,13 @@
 import { Navbar } from '@/components/Navbar';
 import { Hero } from '@/components/Hero';
-import { Services } from '@/components/Services';
-import { Industries } from '@/components/Industries';
-import { Portfolio } from '@/components/Portfolio';
-import { SocialProof } from '@/components/SocialProof';
+import { ProblemStrip } from '@/components/ProblemStrip';
+import { Products } from '@/components/Products';
+import { InsightFeatures } from '@/components/InsightFeatures';
+import { HowItWorks } from '@/components/HowItWorks';
+import { Stats } from '@/components/Stats';
 import { About } from '@/components/About';
-import { LeadMagnet } from '@/components/LeadMagnet';
+import { PricingTeaser } from '@/components/PricingTeaser';
+import { FAQ } from '@/components/FAQ';
 import { Contact } from '@/components/Contact';
 import { Footer } from '@/components/Footer';
 
@@ -14,12 +16,14 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
-      <Services />
-      <Industries />
-      <Portfolio />
-      <SocialProof />
+      <ProblemStrip />
+      <Products />
+      <InsightFeatures />
+      <HowItWorks />
+      <Stats />
       <About />
-      <LeadMagnet />
+      <PricingTeaser />
+      <FAQ />
       <Contact />
       <Footer />
     </main>

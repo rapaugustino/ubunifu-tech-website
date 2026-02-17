@@ -1,72 +1,43 @@
-'use client';
-
 import React from 'react';
-import { Button } from './ui/Button';
 import styles from './About.module.css';
 
-export const About: React.FC = () => {
-  const scrollToContact = () => {
-    const element = document.getElementById('contact');
-    element?.scrollIntoView({ behavior: 'smooth' });
-  };
+const values = [
+  {
+    title: 'Built for Africa from the start',
+    body: 'We do not adapt software built elsewhere. We start from the workflows, connectivity, and business models that exist here — and build around them.',
+  },
+  {
+    title: 'No unnecessary complexity',
+    body: 'Our products do one thing well. We ship what solves the problem, not what looks impressive in a demo.',
+  },
+  {
+    title: 'Pricing that matches the market',
+    body: 'Pay as you go, credit-based pricing. No annual contracts, no seat fees. If the product works for you, you will keep using it.',
+  },
+  {
+    title: 'Tanzania-first, Africa-wide',
+    body: 'We are based in Arusha. We build for the businesses we know, then expand across the continent as we grow.',
+  },
+];
 
+export const About: React.FC = () => {
   return (
     <section id="about" className={styles.about}>
       <div className="container">
-        <div className={styles.header}>
-          <div className={styles.badge}>Our Team</div>
-          <h2 className={styles.heading}>
-            Tanzania-Based. <br />
-            <span className="text-gradient">Globally Trained.</span>
-          </h2>
-          <p className={styles.intro}>
-            Silicon Valley-caliber technical expertise combined with award-winning creative talent—delivering world-class digital solutions from Tanzania.
-          </p>
-        </div>
+        <span className="eyebrow">About</span>
+        <h2 className={styles.heading}>Why we exist</h2>
+        <p className={styles.intro}>
+          Ubunifu Technologies was started to build software products for African businesses — not to adapt
+          tools built elsewhere. We are a small, focused team. Our first product is Ubunifu Insight.
+        </p>
 
         <div className={styles.teamGrid}>
-          {/* Richard's Bio */}
-          <div className={`${styles.teamCard} glass-panel`}>
-            <div className={styles.role}>Founder & Lead Data Scientist</div>
-            <h3 className={styles.name}>Richard Pallangyo</h3>
-            <p className={styles.bio}>
-              Silicon Valley-trained Data Scientist bringing advanced AI and Machine Learning expertise to Tanzania. Experience includes building predictive analytics systems, deploying production ML models, and architecting cloud-scale data infrastructure using the same methodologies as top US tech companies. Specializes in extracting actionable insights from data—from Excel spreadsheets to sophisticated AI systems.
-            </p>
-            <div className={styles.expertise}>
-              <span className={styles.expertiseTag}>AI & Machine Learning</span>
-              <span className={styles.expertiseTag}>Data Analysis</span>
-              <span className={styles.expertiseTag}>Python/FastAPI</span>
-              <span className={styles.expertiseTag}>Business Intelligence</span>
+          {values.map((value) => (
+            <div key={value.title} className={styles.card}>
+              <h3 className={styles.valueTitle}>{value.title}</h3>
+              <p className={styles.bio}>{value.body}</p>
             </div>
-          </div>
-
-          {/* HappyGod's Bio */}
-          <div className={`${styles.teamCard} glass-panel`}>
-            <div className={styles.role}>Creative Director</div>
-            <h3 className={styles.name}>HappyGod Pallangyo</h3>
-            <p className={styles.bio}>
-              Award-winning Creative Director delivering world-class design work from Tanzania. Specializes in brand identity, video production, and visual storytelling that captures attention and drives results. Blends international design standards with authentic African aesthetics to create work that stands out locally while competing globally. From logo design to full brand systems and video campaigns—ensuring businesses present professionally across all touchpoints.
-            </p>
-            <div className={styles.expertise}>
-              <span className={styles.expertiseTag}>Brand Identity</span>
-              <span className={styles.expertiseTag}>Video Production</span>
-              <span className={styles.expertiseTag}>Graphic Design</span>
-              <span className={styles.expertiseTag}>UI/UX Design</span>
-            </div>
-          </div>
-        </div>
-
-        <div className={styles.mission}>
-          <div className={styles.missionContent}>
-            <h3>Our Mission: Driving Digital Transformation in Tanzania</h3>
-            <p>
-              Ubunifu Technologies is dedicated to empowering Tanzanian businesses and organizations through strategic implementation of digital solutions. We partner with enterprises across all sectors—tourism, healthcare, finance, NGOs, agriculture, education, and beyond—to achieve impactful digital transformation that is both ambitious and accessible.
-            </p>
-            <p>
-              We combine Silicon Valley-caliber technical expertise with deep understanding of the local market, ensuring our solutions are not only technologically advanced but also culturally relevant and practically implementable within the Tanzanian context. From turning Excel spreadsheets into strategic insights to building complete digital ecosystems—we're committed to making world-class digital capabilities accessible to Tanzanian organizations of all sizes.
-            </p>
-            <Button variant="outline" onClick={scrollToContact}>Partner With Us</Button>
-          </div>
+          ))}
         </div>
       </div>
     </section>
