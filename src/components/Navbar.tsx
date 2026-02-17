@@ -23,7 +23,6 @@ export const Navbar: React.FC = () => {
 
         <div className={styles.links}>
           <Link href="/#products" className={styles.link}>Products</Link>
-          <Link href="/#portfolio" className={styles.link}>Portfolio</Link>
           <Link href="/#about" className={styles.link}>About</Link>
           <Link href="/blog" className={styles.link}>Blog</Link>
           <Link href="/careers" className={styles.link}>Careers</Link>

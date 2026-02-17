@@ -5,7 +5,6 @@ import { Products } from '@/components/Products';
 import { InsightFeatures } from '@/components/InsightFeatures';
 import { HowItWorks } from '@/components/HowItWorks';
 import { Stats } from '@/components/Stats';
-import { Portfolio } from '@/components/Portfolio';
 import { About } from '@/components/About';
 import { PricingTeaser } from '@/components/PricingTeaser';
 import { FAQ } from '@/components/FAQ';
@@ -22,7 +21,6 @@ export default function Home() {
       <InsightFeatures />
       <HowItWorks />
       <Stats />
-      <Portfolio />
       <About />
       <PricingTeaser />
       <FAQ />
