@@ -45,8 +45,22 @@
 }
 
 @media (max-width: 768px) {
+  .strip {
+    padding: 2.5rem 0;
+  }
+
   .inner {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+
+  .body {
+    font-size: 0.9375rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .strip {
+    padding: 2rem 0;
   }
 }

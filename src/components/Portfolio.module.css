@@ -139,11 +139,41 @@
 }
 
 @media (max-width: 768px) {
+  .portfolio {
+    padding: 64px 0;
+  }
+
   .grid {
     grid-template-columns: 1fr;
   }
 
   .heading {
     font-size: 2rem;
+  }
+
+  .content {
+    padding: 1.5rem;
+  }
+
+  .imageWrapper {
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .portfolio {
+    padding: 48px 0;
+  }
+
+  .heading {
+    font-size: 1.75rem;
+  }
+
+  .imageWrapper {
+    height: 180px;
+  }
+
+  .content {
+    padding: 1.25rem;
   }
 }
