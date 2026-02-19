@@ -27,6 +27,49 @@ export const Hero: React.FC = () => {
             <path d="M12 2v20M2 12h20" />
           </svg>
         </div>
+        <div className={`${styles.shape} ${styles.shapeHexagon}`}>
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
+            <polygon points="24,2 44,14 44,34 24,46 4,34 4,14" />
+          </svg>
+        </div>
+        <div className={`${styles.shape} ${styles.shapeBlueRing}`}>
+          <svg viewBox="0 0 80 80" fill="none">
+            <circle cx="40" cy="40" r="35" stroke="currentColor" strokeWidth="1" strokeDasharray="4 4" />
+          </svg>
+        </div>
+
+        {/* Node connection graphic */}
+        <div className={styles.nodeGraphic}>
+          <svg viewBox="0 0 320 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+            {/* Connection lines */}
+            <line x1="80" y1="60" x2="200" y2="100" stroke="rgba(5, 150, 105, 0.15)" strokeWidth="1.5" />
+            <line x1="200" y1="100" x2="260" y2="60" stroke="rgba(30, 64, 175, 0.12)" strokeWidth="1.5" />
+            <line x1="200" y1="100" x2="160" y2="190" stroke="rgba(5, 150, 105, 0.12)" strokeWidth="1.5" />
+            <line x1="80" y1="60" x2="60" y2="160" stroke="rgba(30, 64, 175, 0.1)" strokeWidth="1" />
+            <line x1="60" y1="160" x2="160" y2="190" stroke="rgba(5, 150, 105, 0.1)" strokeWidth="1" />
+            <line x1="260" y1="60" x2="280" y2="170" stroke="rgba(30, 64, 175, 0.1)" strokeWidth="1" />
+            <line x1="160" y1="190" x2="280" y2="170" stroke="rgba(5, 150, 105, 0.08)" strokeWidth="1" />
+
+            {/* Nodes */}
+            <circle cx="80" cy="60" r="8" fill="rgba(5, 150, 105, 0.12)" stroke="rgba(5, 150, 105, 0.3)" strokeWidth="1.5" />
+            <circle cx="80" cy="60" r="3" fill="rgba(5, 150, 105, 0.6)" />
+
+            <circle cx="200" cy="100" r="10" fill="rgba(30, 64, 175, 0.1)" stroke="rgba(30, 64, 175, 0.25)" strokeWidth="1.5" />
+            <circle cx="200" cy="100" r="4" fill="rgba(30, 64, 175, 0.5)" />
+
+            <circle cx="260" cy="60" r="7" fill="rgba(59, 130, 246, 0.1)" stroke="rgba(59, 130, 246, 0.25)" strokeWidth="1.5" />
+            <circle cx="260" cy="60" r="3" fill="rgba(59, 130, 246, 0.5)" />
+
+            <circle cx="160" cy="190" r="9" fill="rgba(5, 150, 105, 0.1)" stroke="rgba(5, 150, 105, 0.25)" strokeWidth="1.5" />
+            <circle cx="160" cy="190" r="3.5" fill="rgba(5, 150, 105, 0.5)" />
+
+            <circle cx="60" cy="160" r="6" fill="rgba(30, 64, 175, 0.08)" stroke="rgba(30, 64, 175, 0.2)" strokeWidth="1" />
+            <circle cx="60" cy="160" r="2.5" fill="rgba(30, 64, 175, 0.4)" />
+
+            <circle cx="280" cy="170" r="6" fill="rgba(5, 150, 105, 0.08)" stroke="rgba(5, 150, 105, 0.2)" strokeWidth="1" />
+            <circle cx="280" cy="170" r="2.5" fill="rgba(5, 150, 105, 0.4)" />
+          </svg>
+        </div>
       </div>
 
       <div className={`container ${styles.container}`}>

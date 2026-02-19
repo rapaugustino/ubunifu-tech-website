@@ -18,6 +18,7 @@
   inset: 0;
   background:
     radial-gradient(ellipse 45% 55% at 70% 25%, rgba(5, 150, 105, 0.06) 0%, transparent 70%),
+    radial-gradient(ellipse 35% 40% at 80% 70%, rgba(30, 64, 175, 0.035) 0%, transparent 65%),
     radial-gradient(ellipse 50% 40% at 30% 70%, rgba(5, 150, 105, 0.04) 0%, transparent 70%);
 }
 
@@ -61,7 +62,7 @@
 }
 
 .titleGradient {
-  background: linear-gradient(135deg, var(--primary) 0%, #10b981 40%, #34d399 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, #10b981 50%, var(--accent-muted) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -94,6 +95,115 @@
   color: #fff;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3);
+}
+
+/* ── Floating Shapes ─────────────────────────── */
+
+.heroShapes {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.heroShape {
+  position: absolute;
+  opacity: 0;
+  animation: buildShapeAppear 0.8s ease-out forwards;
+}
+
+/* Code brackets shape */
+.shapeBrackets {
+  width: 56px;
+  height: 56px;
+  right: 8%;
+  top: 20%;
+  color: var(--primary-border);
+  animation-delay: 0.6s;
+  animation: buildShapeAppear 0.8s ease-out 0.6s forwards, buildFloat 18s ease-in-out infinite;
+}
+
+/* Blue diamond */
+.shapeDiamond {
+  width: 36px;
+  height: 36px;
+  right: 25%;
+  top: 18%;
+  border-radius: 4px;
+  background-color: var(--accent-light);
+  border: 1.5px solid var(--accent-border);
+  transform: rotate(45deg);
+  animation-delay: 0.9s;
+  animation: buildShapeAppear 0.8s ease-out 0.9s forwards, buildFloat 14s ease-in-out 1s infinite;
+}
+
+/* Green dot pulse */
+.shapePulseDot {
+  width: 10px;
+  height: 10px;
+  right: 16%;
+  top: 60%;
+  border-radius: 50%;
+  background-color: var(--primary);
+  animation-delay: 1.2s;
+  animation: buildShapeAppear 0.8s ease-out 1.2s forwards, buildPulse 3s ease-in-out infinite;
+}
+
+/* Dashed circle */
+.shapeDashedCircle {
+  width: 120px;
+  height: 120px;
+  right: 4%;
+  top: 45%;
+  color: var(--accent-border);
+  animation-delay: 0.4s;
+  animation: buildShapeAppear 0.8s ease-out 0.4s forwards, buildSpin 45s linear infinite;
+}
+
+/* Small green square */
+.shapeSmallSquare {
+  width: 20px;
+  height: 20px;
+  right: 35%;
+  top: 50%;
+  border-radius: 4px;
+  background-color: var(--primary-light);
+  border: 1px solid var(--primary-border);
+  animation-delay: 1.5s;
+  animation: buildShapeAppear 0.8s ease-out 1.5s forwards, buildFloat 16s ease-in-out 2s infinite;
+}
+
+/* Blue dot */
+.shapeBlueDot {
+  width: 8px;
+  height: 8px;
+  right: 30%;
+  top: 70%;
+  border-radius: 50%;
+  background-color: var(--accent-muted);
+  opacity: 0.5;
+  animation-delay: 1.8s;
+  animation: buildShapeAppear 0.8s ease-out 1.8s forwards, buildPulse 4s ease-in-out 1s infinite;
+}
+
+@keyframes buildFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-14px); }
+}
+
+@keyframes buildSpin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes buildPulse {
+  0%, 100% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.5); opacity: 0.4; }
+}
+
+@keyframes buildShapeAppear {
+  from { opacity: 0; transform: scale(0.6); }
+  to { opacity: 1; transform: scale(1); }
 }
 
 /* ── Services ────────────────────────────────── */
@@ -300,6 +410,10 @@
   .heroSection {
     padding-top: calc(var(--nav-height) + 48px);
     padding-bottom: 64px;
+  }
+
+  .heroShapes {
+    display: none;
   }
 
   .title {

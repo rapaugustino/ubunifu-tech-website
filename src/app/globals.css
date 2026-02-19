@@ -7,6 +7,12 @@
   --primary-light: #ecfdf5;
   --primary-border: #a7f3d0;
 
+  /* Accent Blue (complementary) */
+  --accent: #1e40af;
+  --accent-light: #eff6ff;
+  --accent-border: #bfdbfe;
+  --accent-muted: #3b82f6;
+
   /* Neutral Surfaces */
   --surface: #F9FAFB;
   --muted: #6B7280;
